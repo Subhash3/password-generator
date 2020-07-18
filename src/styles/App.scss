@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.App{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    .wrapper{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        // border: 1px solid #ccc;
+    }
+
+    .title{
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0 auto;
+        font-weight: bold;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+
+    .generate-btn{
+        position: relative;
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    .password-box{
+        position: relative;
+        
+        .copy-icon{
+            position: absolute;
+            right: 10px;
+            top: 7px;
+
+        }
+    }
+}

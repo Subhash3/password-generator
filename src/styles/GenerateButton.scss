@@ -1,0 +1,13 @@
+.generate-btn{
+    border: none;
+    padding: 10px 15px;
+    background: rgb(53, 53, 172);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+
+    &:active{
+        outline:none;
+    }
+}
